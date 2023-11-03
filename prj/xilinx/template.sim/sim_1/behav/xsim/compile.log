@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "e:/fpga/project/imag_processing/user/src/display/LCD/lcd_display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lcd_display
+INFO: [VRFC 10-2263] Analyzing Verilog file "e:/fpga/project/imag_processing/user/src/display/LCD/lcd_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lcd_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "e:/fpga/project/imag_processing/user/sim/LCD/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb

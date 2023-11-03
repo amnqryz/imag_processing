@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+e:/fpga/project/imag_processing/prj/xilinx/template.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+e:/fpga/project/imag_processing/user/sim/LCD/top_tb.v,1697703523,verilog,,,,top_tb,,,,,,,,
+e:/fpga/project/imag_processing/user/src/display/LCD/lcd_display.v,1697696835,verilog,,e:/fpga/project/imag_processing/user/src/display/LCD/lcd_driver.v,,lcd_display,,,,,,,,
+e:/fpga/project/imag_processing/user/src/display/LCD/lcd_driver.v,1697703599,verilog,,e:/fpga/project/imag_processing/user/sim/LCD/top_tb.v,,lcd_driver,,,,,,,,
