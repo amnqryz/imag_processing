@@ -22,7 +22,7 @@ parameter  H_BACK_4342   =  11'd2;      //行显示后沿
 parameter  H_DISP_4342   =  11'd480;    //行有效数据
 parameter  H_FRONT_4342  =  11'd2;      //行显示前沿
 parameter  H_TOTAL_4342  =  11'd525;    //行扫描周期
-   
+
 parameter  V_SYNC_4342   =  11'd10;     //场同步
 parameter  V_BACK_4342   =  11'd2;      //场显示后沿
 parameter  V_DISP_4342   =  11'd272;    //场有效数据
@@ -286,7 +286,6 @@ assign lcd_clk = pclk;
 assign lcd_rgb = lcd_de ? pixel_data : 24'd0;
 
 endmodule 
-
 
 
 
