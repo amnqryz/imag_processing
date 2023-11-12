@@ -207,14 +207,6 @@ mig_7series_0 u_mig_7series_0 (
 
     );
 
-
-
-
-
-
-
-
-
 endmodule //ddr_top
 
 
