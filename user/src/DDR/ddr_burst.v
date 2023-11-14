@@ -29,7 +29,7 @@ module ddr_burst #(
 
     input                           app_wdf_rdy,
     output reg                      app_wdf_wren,
-    output reg                      app_wdf_end,
+    output                          app_wdf_end,
     output reg [DATA_WIDTH - 1 : 0] app_wdf_data,
 
     input  [DATA_WIDTH - 1 : 0]     app_rd_data,
@@ -110,6 +110,7 @@ assign rd_burst_finish     = (state_now == READ_END);
 
 assign app_en       = (state_now == WRITE && app_rdy && app_wdf_rdy) || (state_now == READ && app_rdy);
 assign app_cmd      = (state_now == READ) ? 3'd1 : 3'd0;
+assign app_wdf_end  = app_wdf_wren;
 
 always @(posedge ui_clk) begin
     if(rst_n == 1'b0)
@@ -123,7 +124,6 @@ always @(posedge ui_clk) begin
         app_addr      <= 1'b0;
         rd_addr_cnt   <= 24'd0;
         rd_data_cnt   <= 24'd0;
-        rd_burst_data <= 1'b0;
         wr_addr_cnt   <= 1'b0;
         app_wdf_data  <= 1'b0;
     end
@@ -162,8 +162,6 @@ always @(posedge ui_clk) begin
                 if(app_rdy && app_wdf_rdy)begin
                     wr_addr_cnt <= wr_addr_cnt + 1'b1;
                     app_addr    <= app_addr    + 8;
-                    if(wr_addr_cnt == wr_burst_len - 1'b1)
-                        app_wdf_end <= 1'b1;
                 end
 
                 if(wr_burst_data_req)begin
@@ -180,7 +178,6 @@ always @(posedge ui_clk) begin
                 app_addr      <= 1'b0;
                 rd_addr_cnt   <= 24'd0;
                 rd_data_cnt   <= 24'd0;
-                rd_burst_data <= 1'b0;
                 wr_addr_cnt   <= 1'b0;
                 app_wdf_data  <= 1'b0;
             end
@@ -189,37 +186,3 @@ always @(posedge ui_clk) begin
 end
 
 endmodule
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
