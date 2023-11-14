@@ -43,7 +43,6 @@ wire [23:0]  	rd_addr_cnt;
 wire [23:0]  	wr_addr_cnt;
 wire [20:0]  	rd_cnt;
 wire         	error_flag;
-wire         	led;
 
 ddr_rw #(
     .TEST_LENGTH (10),
