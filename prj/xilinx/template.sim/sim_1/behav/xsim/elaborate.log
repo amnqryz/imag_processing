@@ -9,6 +9,7 @@ WARNING: [XSIM 43-4100] "e:/fpga/project/imag_processing/prj/xilinx/template.sim
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.lcd_driver
+Compiling module xil_defaultlib.lcd_rom
 Compiling module xil_defaultlib.lcd_display
 Compiling module xil_defaultlib.top_tb
 Compiling module xil_defaultlib.glbl

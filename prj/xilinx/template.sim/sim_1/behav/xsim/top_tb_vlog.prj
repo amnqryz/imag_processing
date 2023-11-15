@@ -2,6 +2,7 @@
 verilog xil_defaultlib  \
 "../../../../../../user/src/display/LCD/lcd_display.v" \
 "../../../../../../user/src/display/LCD/lcd_driver.v" \
+"../../../../../../user/src/display/LCD/lcd_rom.v" \
 "../../../../../../user/sim/LCD/top_tb.v" \
 
 # compile glbl module

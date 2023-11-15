@@ -38,4 +38,11 @@ lcd_driver u_lcd_driver(
 	.lcd_de     	( lcd_de      )
 );
 
+initial begin
+	$dumpfile("wave.vcd");
+	$dumpvars(0,driver_tb);
+	#50000 $finish;
+end
+
+
 endmodule  //TOP
