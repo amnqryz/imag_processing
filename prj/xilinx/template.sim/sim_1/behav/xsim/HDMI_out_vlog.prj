@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../user/src/display/HDMI/asyn_rst_syn.v" \
+"../../../../../../user/src/display/HDMI/div_encoder.v" \
+"../../../../../../user/src/display/HDMI/oserializer.v" \
+"../../../../../../user/src/display/HDMI/parallel_to_serial.v" \
+"../../../../../../user/src/display/HDMI/HDMI_out.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

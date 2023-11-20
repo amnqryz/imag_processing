@@ -3,7 +3,15 @@
 Dec  7 2018
 00:33:28
 e:/fpga/project/imag_processing/prj/xilinx/template.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+e:/fpga/project/imag_processing/user/sim/Base/USB/usb_tb.v,1700205925,verilog,,,,usb_tb,,,,,,,,
 e:/fpga/project/imag_processing/user/sim/LCD/top_tb.v,1697703523,verilog,,,,top_tb,,,,,,,,
+e:/fpga/project/imag_processing/user/src/Base/FIFO/syn_fifo.v,1700127778,verilog,,e:/fpga/project/imag_processing/user/src/Base/USB/usb_rw.v,,syn_fifo,,,,,,,,
+e:/fpga/project/imag_processing/user/src/Base/USB/usb_rw.v,1700202923,verilog,,e:/fpga/project/imag_processing/user/src/Base/USB/usb_top.v,,usb_rw,,,,,,,,
+e:/fpga/project/imag_processing/user/src/Base/USB/usb_top.v,1700212059,verilog,,e:/fpga/project/imag_processing/user/sim/Base/USB/usb_tb.v,e:/fpga/project/imag_processing/user/src/Base/FIFO/syn_fifo.v;e:/fpga/project/imag_processing/user/src/Base/USB/usb_rw.v,usb_top,,,,,,,,
+e:/fpga/project/imag_processing/user/src/display/HDMI/HDMI_out.v,1699775880,verilog,,,,HDMI_out,,,,,,,,
+e:/fpga/project/imag_processing/user/src/display/HDMI/asyn_rst_syn.v,1699775777,verilog,,e:/fpga/project/imag_processing/user/src/display/HDMI/div_encoder.v,,asyn_rst_syn,,,,,,,,
+e:/fpga/project/imag_processing/user/src/display/HDMI/div_encoder.v,1699775803,verilog,,e:/fpga/project/imag_processing/user/src/display/HDMI/oserializer.v,,dvi_encoder,,,,,,,,
+e:/fpga/project/imag_processing/user/src/display/HDMI/oserializer.v,1699776016,verilog,,e:/fpga/project/imag_processing/user/src/display/HDMI/parallel_to_serial.v,,oserializer,,,,,,,,
+e:/fpga/project/imag_processing/user/src/display/HDMI/parallel_to_serial.v,1699775837,verilog,,e:/fpga/project/imag_processing/user/src/display/HDMI/HDMI_out.v,,parallel_to_serial,,,,,,,,
 e:/fpga/project/imag_processing/user/src/display/LCD/lcd_display.v,1697755085,verilog,,e:/fpga/project/imag_processing/user/src/display/LCD/lcd_driver.v,,lcd_display,,,,,,,,
-e:/fpga/project/imag_processing/user/src/display/LCD/lcd_driver.v,1697703599,verilog,,e:/fpga/project/imag_processing/user/src/display/LCD/lcd_rom.v,,lcd_driver,,,,,,,,
-,,,,e:/fpga/project/imag_processing/user/sim/LCD/top_tb.v,,lcd_rom,,,,,,,,
+e:/fpga/project/imag_processing/user/src/display/LCD/lcd_driver.v,1699367221,verilog,,e:/fpga/project/imag_processing/user/sim/LCD/driver_tb.v,,lcd_driver,,,,,,,,

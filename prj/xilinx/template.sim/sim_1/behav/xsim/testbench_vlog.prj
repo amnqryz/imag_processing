@@ -1,7 +1,8 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
-"../../../../../../user/src/display/LCD/lcd_driver.v" \
-"../../../../../../user/sim/testbench.v" \
+"../../../../../../user/src/IP/mig_7series_0/mig_7series_0_stub.v" \
+"../../../../../../user/src/DDR/burst_top.v" \
+"../../../../../../user/sim/ddr_burst_tb.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

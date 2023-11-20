@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../user/src/Base/FIFO/syn_fifo.v" \
+"../../../../../../user/src/Base/USB/usb_rw.v" \
+"../../../../../../user/src/Base/USB/usb_top.v" \
+"../../../../../../user/sim/Base/USB/usb_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
