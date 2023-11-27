@@ -2,11 +2,11 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Fri Nov 17 20:49:08 2023
-# Process ID: 23960
+# Start of session at: Mon Nov 27 16:48:03 2023
+# Process ID: 26872
 # Current directory: e:/fpga/project/imag_processing/prj/xilinx/template.runs/impl_1
-# Command line: vivado.exe -log usb_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source usb_top.tcl -notrace
-# Log file: e:/fpga/project/imag_processing/prj/xilinx/template.runs/impl_1/usb_top.vdi
+# Command line: vivado.exe -log iic_test.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source iic_test.tcl -notrace
+# Log file: e:/fpga/project/imag_processing/prj/xilinx/template.runs/impl_1/iic_test.vdi
 # Journal file: e:/fpga/project/imag_processing/prj/xilinx/template.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
-source usb_top.tcl -notrace
+source iic_test.tcl -notrace

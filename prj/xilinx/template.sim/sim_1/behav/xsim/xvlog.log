@@ -1,9 +1,6 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "e:/fpga/project/imag_processing/user/src/Base/FIFO/syn_fifo.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module syn_fifo
-INFO: [VRFC 10-2263] Analyzing Verilog file "e:/fpga/project/imag_processing/user/src/Base/USB/usb_rw.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module usb_rw
-WARNING: [VRFC 10-3380] identifier 'state_now' is used before its declaration [e:/fpga/project/imag_processing/user/src/Base/USB/usb_rw.v:48]
-INFO: [VRFC 10-2263] Analyzing Verilog file "e:/fpga/project/imag_processing/user/src/Base/USB/usb_top.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module usb_top
-INFO: [VRFC 10-2263] Analyzing Verilog file "e:/fpga/project/imag_processing/user/sim/Base/USB/usb_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module usb_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "e:/fpga/project/imag_processing/user/src/Base/IIC/iic_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iic_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "e:/fpga/project/imag_processing/user/sim/Base/IIC/iic_driver_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iic_driver_tb
+WARNING: [VRFC 10-986] literal value truncated to fit in 26 bits [e:/fpga/project/imag_processing/user/sim/Base/IIC/iic_driver_tb.v:4]
+WARNING: [VRFC 10-986] literal value truncated to fit in 18 bits [e:/fpga/project/imag_processing/user/sim/Base/IIC/iic_driver_tb.v:5]

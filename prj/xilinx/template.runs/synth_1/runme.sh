@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log usb_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source usb_top.tcl
+EAStep vivado -log iic_test.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source iic_test.tcl

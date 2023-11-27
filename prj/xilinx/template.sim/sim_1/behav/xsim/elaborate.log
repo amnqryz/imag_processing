@@ -1,6 +1,6 @@
 Vivado Simulator 2018.3
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: D:/Vivado/position2/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto ac873676fac44bd0a5611ce20bc6a087 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot usb_tb_behav xil_defaultlib.usb_tb xil_defaultlib.glbl -log elaborate.log 
+Running: D:/Vivado/position2/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto ac873676fac44bd0a5611ce20bc6a087 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot iic_driver_tb_behav xil_defaultlib.iic_driver_tb xil_defaultlib.glbl -log elaborate.log 
 Using 8 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -8,9 +8,7 @@ Starting simulation data flow analysis
 WARNING: [XSIM 43-4100] "e:/fpga/project/imag_processing/prj/xilinx/template.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.usb_rw
-Compiling module xil_defaultlib.syn_fifo(DATA_WIDTH=8,DEPTH=256)
-Compiling module xil_defaultlib.usb_top(DEPTH=256)
-Compiling module xil_defaultlib.usb_tb
+Compiling module xil_defaultlib.iic_driver(CLK_FREQ=26'b01111101...
+Compiling module xil_defaultlib.iic_driver_tb
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot usb_tb_behav
+Built simulation snapshot iic_driver_tb_behav
