@@ -15,7 +15,9 @@ module iic_driver #(
     output reg        iic_ack,
     output            iic_done,
     output            scl,
-    inout             sda
+    inout             sda,
+
+    output            dri_clk
     //input             sda_in,
     //output reg        sda_out
 );
@@ -50,7 +52,7 @@ localparam CNT = (CLK_FREQ/I2C_FREQ);
 
 //scl
 reg [8:0] scl_cnt;
-(* mark_debug = "True" *)reg [4:0] state_now,state_next;
+reg [4:0] state_now,state_next;
 
 wire stop_flag;
 wire keep_flag;
@@ -78,10 +80,13 @@ always @(posedge sys_clk) begin
     end
 end
 
+//dri_clk
+assign dri_clk = (scl_cnt <= CNT/2 - 1'b1) ? 1'b0 : 1'b1;
+
 //state
 reg [3:0] bit_cnt;
-(* mark_debug = "True" *)reg       sda_out;
-(* mark_debug = "True" *)wire      sda_in;
+reg       sda_out;
+wire      sda_in;
 
 assign sda_in = sda;
 

@@ -1,4 +1,3 @@
-`include "./ddr_burst.v"
 module burst_top #(
     parameter ADDR_WIDTH = 28,
     parameter DATA_WIDTH = 128
